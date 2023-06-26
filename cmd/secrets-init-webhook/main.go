@@ -42,10 +42,10 @@ const (
 )
 
 const (
-	requestsCPU    = "10m"
-	requestsMemory = "10Mi"
-	limitsCPU      = "10m"
-	limitsMemory   = "50Mi"
+	requestsCPU    = "100m"
+	requestsMemory = "128Mi"
+	limitsCPU      = "100m"
+	limitsMemory   = "128Mi"
 )
 
 var (
